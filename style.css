@@ -13,16 +13,17 @@ body
   background: #d5eafd;
   position: relative;
 }
-.title {
-  
-  margin-right: 6em;
-  
-  
-  
+.title {  
+  margin-right: 4em;
 }
+.title h1 div:nth-child(1) {
+  text-align: center;
+}
+
+.title 
 h1 span {
   font-family: serif;
-  font-size: 80px;
+  font-size: 60px;
   color: #fff;
   position: relative;
   top: 20px;
@@ -58,7 +59,7 @@ h1 span:nth-child(15){animation-delay: 1.4s;}
 
 @keyframes bounce {
   100% {
-      top: -20px;
+      top: -10px;
       text-shadow: 0 1px 0 #ccc,
                    0 1px 0 #ccc,
                    0 3px 0 #ccc,
